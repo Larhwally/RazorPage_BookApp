@@ -1,0 +1,13 @@
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.exe
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.deps.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.runtimeconfig.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.runtimeconfig.dev.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\bin\Debug\netcoreapp3.1\FIleSystem.pdb
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.csproj.AssemblyReference.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.AssemblyInfoInputs.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.AssemblyInfo.cs
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.csproj.CoreCompileInputs.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.pdb
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\MyBookApp\FIleSystem\obj\Debug\netcoreapp3.1\FIleSystem.genruntimeconfig.cache

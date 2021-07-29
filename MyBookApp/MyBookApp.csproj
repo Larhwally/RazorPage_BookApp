@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Files\00000000-0000-0000-0000-000000000000BSC.jpg" />
+    <Content Include="Files\00000000-0000-0000-0000-000000000000ind_Shaare1.jpg" />
+    <Content Include="Files\00000000-0000-0000-0000-000000000000passport.jpg" />
+    <Content Include="Files\BSC.jpg" />
+    <Content Include="Files\dope.jpg" />
+    <Content Include="Files\Eid Mubarak to All! %281%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.11" />
+    <PackageReference Include="MySql.Data" Version="8.0.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Files\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿@page
+@model MyBookApp.Pages.TutorialModel
+@{
+}
+<div class="container">
+    <h1 class="form-text text-center">
+        @Model.Greeting
+    </h1>
+    <form class="align-content-sm-center">
+        <h2 class="form-text">About Aina</h2>
+        
+        @foreach (var item in Model.dico)
+        {
+        <table class="border">
+            <tr>
+                <td>@item.Key</td>
+                <td>@item.Value</td>
+            </tr>
+        </table>
+        }
+    </form>
+</div>

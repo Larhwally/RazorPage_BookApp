@@ -1,0 +1,74 @@
+﻿@page
+@model MyBookApp.Pages.BookPages.BorrowedBooksModel
+@{
+}
+
+<br />
+<div class="container row p-0 m-0">
+	  <div class="col-6">
+        <h2 class="text-info">Borrowed Books</h2>
+      </div>
+
+      <br />
+      <div class="col-12 border p-3 mt-3">
+        <form method="post">
+            @if (Model.Books.Count() > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            <label asp-for="Books.FirstOrDefault().bookTitle"></label> @*using tag helpers*@
+                        </th>
+                        <th>
+                            <label asp-for="Books.FirstOrDefault().authorName"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Books.FirstOrDefault().publishYear"></label>
+                        </th>
+                        <th>
+                            <label asp-for="Books.FirstOrDefault().ISBN"></label>
+                        </th>
+                      
+                        <th>
+                            <label asp-for="Books.FirstOrDefault().status"></label>
+                        </th>
+                        <th>
+                            <label>Action</label>
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Books)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.bookTitle)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.authorName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.publishYear)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.ISBN)
+                            </td>
+                          
+                            <td>
+                                @Html.DisplayFor(m => item.status)
+                            </td>
+                            <td>
+                                <a asp-page="Edit" asp-route-id="@item.id" class="btn btn-success btn-sm text-white">Edit</a>
+                                @*<a asp-page="Delete" asp-route-id="@item.id" class="btn btn-danger btn-sm text-white">Delete</a> *@
+                                @*<button asp-page-handler="Delete" onclick="return confirm('Are you sure you want to delete record?')" class="btn btn-danger btn-sm">Delete</button>*@
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>No books available.</p>
+            }
+        </form>
+    </div>
+
+</div>
